@@ -1,14 +1,9 @@
 {
-	"name": "log-symbols",
-	"version": "2.2.0",
+	"name": "console-symbols",
+	"version": "1.0.0",
 	"description": "Colored symbols for various log levels. Example: ✔︎ Success",
 	"license": "MIT",
-	"repository": "sindresorhus/log-symbols",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
-	},
+	"repository": "noyobo/log-symbols",
 	"engines": {
 		"node": ">=6"
 	},
@@ -17,8 +12,10 @@
 	},
 	"files": [
 		"index.js",
+		"console.ls",
 		"browser.js"
 	],
+	"main": "console.js",
 	"keywords": [
 		"unicode",
 		"cli",
